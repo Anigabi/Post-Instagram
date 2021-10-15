@@ -1,0 +1,77 @@
+body {
+    background-color: #7e7972;
+}
+
+.post {
+    width: 500px;
+    margin: auto;
+    background-color: rgb(233, 233, 233);
+}
+
+header {
+    width: 500px;
+    display: inline-flex;
+    margin: 0;
+} 
+
+ header > div {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+.info-post {
+    margin: 0;
+    width: 120px;
+    font-size: 13px;
+}
+
+.info-post h1 {
+    margin: 0;
+}
+
+i {
+    width: 30px;
+    padding-left: 15px;
+    color: black;    
+}
+
+i:hover {
+    color: grey;
+}
+
+figure {
+    margin: 0;
+    width: 500px;
+}
+
+img {
+    height: 600px;
+    width: 100%;
+}
+
+header > a {
+    align-items: center;
+    margin: auto;
+}
+
+nav {
+    margin: 0 ;
+    padding-top: 10px;
+}
+
+.far:hover {
+    color: grey;
+}
+
+.description {
+    margin: 15px;
+}
+
+nav > i:last-child {
+    float: right;
+}
+
+nav >i:first-child:hover {
+    color: red;
+}
